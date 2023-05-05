@@ -1,18 +1,21 @@
-ABOUT:
-I made this script for myself. I had a bunch of files in different folders. They came from different sources but the naming of the files were just timestamps of 
-when the files was made. I wanted to rename each file to know where the source was. So I made a script to append a word to the front of all the files in a directory.
-So it would add the source to the front and keep the timestamp after. 
+# Script for Appending Prefix to File Names
 
-After I used the script for myself. I decided to add some logic to be able to use it easily in the future for any similiar type needs.
+## About
 
-HOW TO USE:
-After you download and run the script it will then prompt you for the directory or path to the files needed to be renamed. 
-Once you provide the directory it will then print all the files in that directory so you can confirm if it was the correct directory.
-It will prompt asking if it was correct or needs to be updated before continuing.
+I created this script to make it easier to rename a bunch of files in different folders. The files came from different sources but had the same naming convention - a timestamp of when the file was made. I wanted to rename each file with a prefix to indicate the source, while keeping the original timestamp.
 
-The next prompt will be to add any text you want to append to the beginning of a file name. 
-It will then display an example using the first file name it displayed earlier. 
-Below the displayed example it will then prompt if that looks good or if you want to make any changes to what it appends.
+## How to Use
 
-Once you confirm everything is good, I made the script verbose so you're able to see the files getting renamed and when it's finished. 
+1. Download the script and run it.
+2. When prompted, enter the directory or path to the files that need to be renamed.
+3. The script will then print all the files in that directory, so you can confirm that it is the correct directory. If it is incorrect, you can update the path.
+4. Next, enter the text you want to append to the beginning of each file name.
+5. The script will display an example of what the new file name will look like using the first file in the directory.
+6. You can confirm if the new name looks good or make changes as needed.
+7. The script will then begin renaming the files, and you will see a verbose output of the progress.
+8. Once it finishes, you will see a message indicating that it is complete.
 
+## Notes
+
+- This script was created for personal use, but I added some logic to make it more versatile for future use.
+- The script is designed to keep the original timestamp intact, while adding a prefix to the file name.
